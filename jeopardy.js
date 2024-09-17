@@ -108,7 +108,7 @@ $("#restart").on("click", function() {
 	location.reload();
 });
 
-// when document is loaded, start game and add event listener for jeopardy board
+// when document is loaded, start game and add event listener for jeopardy board.
 $(document).ready(function() {
 	setupAndStart();
 	$("#jeopardy").on("click", "div", handleClick);
